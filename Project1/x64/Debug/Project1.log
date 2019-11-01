@@ -1,0 +1,31 @@
+﻿Build started 2019/10/30 8:41:05.
+     1>Project "D:\learning_materials\3f\Computer Graphic\Assignment2\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\SoftWares\Visual Studio\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt std_image.cpp Source1.cpp
+         Source1.cpp
+     1>Source1.cpp(131): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(132): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(229): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Source1.cpp(275): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>Source1.cpp(289): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>Source1.cpp(310): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(311): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(403): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Source1.cpp(408): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>Source1.cpp(412): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Source1.cpp(417): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>Source1.cpp(442): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         std_image.cpp
+         Generating Code...
+       Link:
+         D:\SoftWares\Visual Studio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learning_materials\3f\Computer Graphic\Assignment2\Project1\x64\Debug\Project1.exe" /INCREMENTAL /NOLOGO glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\learning_materials\3f\Computer Graphic\Assignment2\Project1\x64\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learning_materials\3f\Computer Graphic\Assignment2\Project1\x64\Debug\Project1.lib" /MACHINE:X64 x64\Debug\glad.obj
+         x64\Debug\std_image.obj
+         x64\Debug\Source1.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Project1.vcxproj -> D:\learning_materials\3f\Computer Graphic\Assignment2\Project1\x64\Debug\Project1.exe
+     1>Done Building Project "D:\learning_materials\3f\Computer Graphic\Assignment2\Project1\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.31

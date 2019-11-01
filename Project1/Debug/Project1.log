@@ -1,0 +1,65 @@
+﻿Build started 2019/10/14 17:30:23.
+     1>Project "D:\learning_materials\3f\Computer Graphic\Assignment1\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\SoftWares\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\Lesson1\glad4.6\src\glad.c
+         glad.c
+         D:\SoftWares\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(10): error C2065: 'glfwwindow' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(10): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(10): error C2062: type 'int' unexpected
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(11): error C2065: 'glfwwindow' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(11): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(11): error C2062: type 'int' unexpected
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(17): error C3861: 'glfwinit': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(18): error C2065: 'glfw_context_version_major' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(18): error C3861: 'glfwwindowhint': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(19): error C2065: 'glfw_context_version_minor' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(19): error C3861: 'glfwwindowhint': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(20): error C2065: 'glfw_opengl_profile' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(20): error C2065: 'glfw_opengl_core_profile' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(20): error C3861: 'glfwwindowhint': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(23): error C2065: 'glfwwindow' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(23): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(23): error C2065: 'null' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(23): error C3861: 'glfwcreatewindow': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(24): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(24): error C2065: 'null' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(28): error C3861: 'glfwterminate': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(32): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(32): error C3861: 'glfwmakecontextcurrent': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(35): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(35): error C2065: 'framebuffer_size_callback' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(35): error C3861: 'glfwsetframebuffersizecallback': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(37): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(37): error C2065: 'key_callback' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(37): error C3861: 'glfwsetkeycallback': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(40): error C2065: 'gladloadproc' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(40): error C2146: syntax error : missing ')' before identifier 'glfwgetprocaddress'
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(40): error C3861: 'gladloadglloader': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(40): error C2059: syntax error : ')'
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(41): error C2143: syntax error : missing ';' before '{'
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(47): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(47): error C3861: 'glfwwindowshouldclose': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(50): error C3861: 'glfwpollevents': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(53): error C3861: 'glclearcolor': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(54): error C2065: 'gl_color_buffer_bit' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(54): error C3861: 'glclear': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(57): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(57): error C3861: 'glfwswapbuffers': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(61): error C3861: 'glfwterminate': identifier not found
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(65): error C2065: 'glfwwindow' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(65): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(65): error C2062: type 'int' unexpected
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(66): error C2143: syntax error : missing ';' before '{'
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(66): error C2447: '{' : missing function header (old-style formal list?)
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(70): error C2065: 'glfwwindow' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(70): error C2065: 'window' : undeclared identifier
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(70): error C2062: type 'int' unexpected
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(71): error C2143: syntax error : missing ';' before '{'
+     1>d:\learning_materials\3f\computer graphic\assignment1\project1\project1\source.cpp(71): error C2447: '{' : missing function header (old-style formal list?)
+     1>Done Building Project "D:\learning_materials\3f\Computer Graphic\Assignment1\Project1\Project1\Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.31
